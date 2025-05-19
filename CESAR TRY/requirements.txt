@@ -1,0 +1,5 @@
+git
+transformers
+llama-cpp-python
+
+# CMake
