@@ -1,0 +1,34 @@
+1.
+**IMPORTANTE!!**
+
+Mapear la unidad de red de personal CON LETRA l --> net use l: \\cifs01\datos\grupos\personal
+
+
+\\cifs01\datos\grupos\cau\software\Integro y ejecutar el fichero integrho_rt_5.3.6. Todo siguiente-siguiente
+
+
+
+2.
+
+Renombrar la carpeta C:\entersystems\bin como C:\entersystems\bin.ORI 
+
+ir a  \\cifs01\datos\grupos\cau\Documentacion\INTEGRO\bin.7zip y descomprimir   en C:\entersystems\
+
+3.
+Para acabar dar permisos a todos los usuarios en C:\entersystems\
+
+IMPORTANTE --> La primera vez que ejecutamos Integrho se terminará de actualizar y dará un error; Si ejecutamos de nuevo funcionará perfectamente.
+
+4.
+
+El  acceso directo de la aplicación está en la carpeta de este tuto
+
+
+
+
+
+**Errores**
+
+1.Se ha generado un error -548: Al crear el fichero C\entersystems\bin\integhro.exe
+
+Este error está causado por que no se ha echo el paso 2 del tuto

@@ -1,0 +1,15 @@
+En las plantas de hospitalización tenemos instalados unos carros con batería.
+
+Estos carros llevan un CL wise3040 con una pantalla LCD.
+
+El carro tiene instalado un botón on\off que corta o enciende la corriente a los dos dispositivos; 
+El CL arranca automaticamente en cuanto le llega corriente.
+
+
+Posibles fallos: 
+1. Si han dejado que se agote del todo la batería el cl no arranca automaticamente, por lo que habrá que quitarle 2 tornillos allen y destapar la parte trasera. Una vez que el cl queda a la vista simplemente le damos al botón de encender.
+   La proxima vez que se use el botón on\off del carro ya arrancará automaticamente.
+
+2. La pantalla y la pantallita donde marca el porcentaje de batería parpadea sin parar y el cl no arranca.
+    En este caso hay que enviar un correo a electrofarmacia@krz.es para que se pasen a revisar el carro (esto segurmanete tendrá un coste, si nos pasan un presupuesto, pasar a Tomas o Oscar)
+	

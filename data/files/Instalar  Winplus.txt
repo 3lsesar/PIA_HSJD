@@ -1,0 +1,46 @@
+
+1.
+Instalamos el cliente Oracle 11 (w10) de 
+-copiamos el fichero \\cifs01\datos\grupos\cau\software\oracle  !!!!IMPORTANTE!!!!-Te pedirá donde instalar, siempre en disco "C"
+
+2.
+Tras instalar el oracle,copiamos el TNSNAMES.ORA  que hay en la carpeta de este tutorial en la ruta  C:\Oracle\Ora81\NETWORK\ADMIN y elimnamos el sqlnet.ora
+
+3.
+
+Accedemos a la ruta :  \\scpdwplus01\Winplus\Instalar\Instalacion DLL Cliente
+
+Ejecutamos el setup.exe (TODO SIGUIENTE)
+
+4.
+
+-copiamos el fichero \\cifs01\datos\grupos\cau\Documentacion\Winplus\craxdrt.dll en 
+
+WINDOWS x32 --> c:\windows\system32\  y  EJECUTA COMANDO :    Regsvr32 c:\windows\system32\craxdrt.dll (ejecutarlo desde la cuenta administrador local)
+
+	WINDOWS x64 ---> (C:\Windows\SysWOW64) y EJECUTA COMANDO :    Regsvr32 C:\Windows\SysWOW64\craxdrt.dll (ejecutarlo desde la cuenta administrador local)
+
+
+-copiamos el fichero \\scpdwplus01\Winplus\Instalar\Crystal en c:\windows\
+
+El acceso directo lo tienen que tener en el escritorio del usuario, por si no lo tiene guardamos en la carpeta de este tuto.
+
+
+Cada vez  que se cambie una maquina hay que entrar en la BD "Winplus@nodonomina.pssjd.local" y cambiar el nombre antiguo
+ por el nuevo en la tabla "CFG"
+
+
+
+
+-Para que funcionan las alertas es imprescindible poner la ip fija: 172.18.24.146 
+
+-Dentro del programa de alertas, una vez abierto hay que ir al menú Herramientas\Configuracion y poner la ip del servidor 172.19.2.147
+
+
+¡¡ATENCION !!!!
+
+SI FALLA A LA HORA DE CAMBIAR DE MENU PRESIONANDO LOS ICONOS DE LA IZQUIERDA, ES DECIR, A LA HORA DE PASAR DE UNA OPCION A OTRA NO CAMBIA LA PANTALLA Y SE QUEDA SIEMPRE EN LA MISMA PANTALLA
+ ES POR UN PROBLEMA DE PERMISOS Y PARA SOLUCIONARLO HEMOS DE EJECUTARLO COMO ADMINISTRADOR EL WINPLUS Y PROBARLO (hay que tener mapeada la unidad W en el admin que usemos), UNA VEZ LO EJECUTAS COMO ADMINISTRADOR (botón derecho -> ejecutar como admin) LO VUELVES A PROBAR CON EL USUARIO NORMAL. 
+
+Para mapear la unidad en el admin, hacemos un ejecutar como del CMD,lo abrimos con ese admin y lanzamos el comango: net use w: \\scpdwplus01\winplus
+

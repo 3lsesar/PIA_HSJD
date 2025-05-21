@@ -1,0 +1,9 @@
+Se elimina de la siguiente forma:
+
+-Como usuario, ver en el regedit en: Current_User/Software/Microsoft/Windows/Current version/Run fijarnos donde está un .EXE "extraño"
+
+-Como administrador, ir a la carpeta, que suele ser "C:\Documents and Settings\Josep\Datos de programa" y eliminar el .EXE.
+
+-Ir también a la carpeta "C:\WINDOWS\Prefetch", y borrarlo también.
+
+-Como usuario, ir a: Current_User/Software/Microsoft/Windows/Current version/Run y borramos el .EXE

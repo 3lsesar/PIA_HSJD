@@ -1,0 +1,4 @@
+\\fsjd1.hsjdbcn.es\fundanet\InstaladorCliente\SincronizadorLocal. 
+
+Nueva ruta: \\fundanet.hsjdbcn.es\fundanet\InstaladorCliente\Fundanet\ 
+Mapearlo como una unidad de red y deben de acceder con el usuario HSJDBCN\

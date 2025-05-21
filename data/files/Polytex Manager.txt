@@ -1,0 +1,7 @@
+Para acceder al aplicativo:
+http://172.18.61.11:81
+Usuario: admin          
+Pass: 
+
+
+Acceder al hos2003s041 y levantar el servicio polytex manager server.

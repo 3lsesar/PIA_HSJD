@@ -1,0 +1,3 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+
+Buscar el perfil que corresponda y borrar la clave completa.

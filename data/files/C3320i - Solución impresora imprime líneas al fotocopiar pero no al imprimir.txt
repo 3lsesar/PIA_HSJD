@@ -1,0 +1,14 @@
+Impresora imprime líneas, falta configuración de zona horaria, fecha y hora:
+-----------------------------------------------------------------------------
+
+Contadores (arriba izquierda)
+Mostrar teclado (arriba izquierda)
+STOP (botón rojo) 00 STOP 01
+9272 (4 veces) END
+STOP 1144C
+Configurar zona horaria (Entry)
+Configurar fecha solo pulsando los números
+Entry
+Apply
+OK
+EXIT

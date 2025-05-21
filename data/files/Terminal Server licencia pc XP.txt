@@ -1,0 +1,8 @@
+en Windows XP
+
+
+Hay que entrar el regedit y buscar la clave:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing
+
+Una vez localizada hay que eliminarla.

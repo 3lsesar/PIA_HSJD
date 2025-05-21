@@ -1,0 +1,10 @@
+CONTINGENCIA PC BACKUP
+
+1-En el PC de contingencia se ha creado una carpeta contingencia_mercurio (en C:) con el contenido de las carpetas dgh_mercurio de cada puesto (K2, K3 y K4)
+2-En el PC de BackUp Se ha de copiar y renombrar la carpeta correspondiente al pc averiado, nombre de la carpeta DGH_Mercurio y dejarlo en la raiz de la unidad C. Tambien hemos de cambiar la ip en tcp/ip segun maquina sustituida.
+3-Los usuarios de farmacia entran con el usuario kardex (usuario Local), por lo que este usuario debe tener permiso total sobre la carpeta dgh_mercurio
+4-Si el pc ha reemplazar es de un kardex vertical se ha de mapear la unidad Z:
+interface en "172.19.2.23\d$"
+5-Se ha de crear un acceso en el escritorio del fichero dgh_mercurio.exe que se encuentra dentro de la carpeta dgh_mercurio.
+6-Se ha de conectar al pc además de los perifericos el cable comm del armario
+7-llamar al 902492493 en caso no exista comunicacion con el armario (debido a cambio de COMM). Hay una opcion en el menu de mercurio que permite señalar el numero de comm asignado.

@@ -1,0 +1,25 @@
+
+hsjdbcn\usuario
+
+Nueva ruta:
+\\matrix_fs04.hsjdbcn.es\Recursos\fsjd\fsjd
+
+
+Unidades Biblioteca
+
+\\matrix_fs04.hsjdbcn.es\DATOS4\fsjd_biblioteca\biblioteca
+
+
+\\FSJD2.hsjdbcn.es\Contanet\instalacionCliente
+\\Fsjd2.hsjdbcn.es\FundaNET\InstalacionCliente
+
+
+
+
+Nuevo recurso Octubre 2017
+
+
+\\172.21.31.184\Recursos$\ (unidad Z)
+\\172.21.31.184\Recursos$\fsjd\fsjd_recerca (Unidad Y)
+
+hsjdbcn\jdedios

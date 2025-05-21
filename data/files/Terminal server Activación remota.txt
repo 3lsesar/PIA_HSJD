@@ -1,0 +1,6 @@
+
+Conectarse al registro de manera remota
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server
+
+fDenyTSConnection poner a 0

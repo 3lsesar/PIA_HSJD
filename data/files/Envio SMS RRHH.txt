@@ -1,0 +1,11 @@
+Para dar permisos al envio de SMS
+
+Tiene que estar dado de alta en personal y activo. Ademas existir en las siguientes tablas:
+
+en PSSJD_VARIOS
+
+PERSONAL
+PERSONAL_DEPARTAMENTOS
+PERSONAL_USUARIOS
+PERSONAL_PERMISOS  (aqui tiene que tener el permiso AB9)
+usuarios_red

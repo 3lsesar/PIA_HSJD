@@ -1,0 +1,9 @@
+J:\instalacion\procedimientos\Winplus
+
+Instalar Winplus y winsuit hos511:
+le instalo el winplus:
+-entrar en hos272 winplus:\\Instalar\\Instalacion DLL Cliente(Instalamos el ejecutable)
+-copiamos el en c:\\windows\\system32\\craxdrt.dll y Regsvr32 c:\\windows\\system32\\craxdrt.dll 
+-instalo el cliente oracle y una vez instalado copiamos el \\\\hos501\\software\\oracle\\tnsnames.ora en C:\\Oracle\\Ora81\\NETWORK\\ADMIN.
+y cambiamos de nombre a sqlnet A sqlnet_old (tiene que llamarse tnsnames).
+Copiamos acceso directo de winplus open

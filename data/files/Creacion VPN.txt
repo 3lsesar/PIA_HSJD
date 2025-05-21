@@ -1,0 +1,40 @@
+vpngroup vpnIPAE address-pool PoolVPN_30
+vpngroup vpnIPAE split-tunnel SPLIT_IPAE
+vpngroup vpnIPAE idle-time 1800
+vpngroup vpnIPAE password ipae382092G
+
+
+ip local pool PoolVPN_30 192.168.37.105-192.168.37.106
+
+object-group network RED_IPAE
+  network-object 172.18.20.54 255.255.255.255
+
+access-list SPLIT_IPAE permit ip object-group RED_IPAE 192.168.37.104 255.255.255.252
+
+username ipae password ipae382092G
+
+access-list nonat permit ip host 172.18.20.54 192.168.37.104 255.255.255.252
+
+
+
+
+
+
+vpngroup vpnDynamics address-pool PoolVPN_31
+vpngroup vpnDynamics split-tunnel SPLIT_Dynamics
+vpngroup vpnDynamics idle-time 1800
+vpngroup vpnDynamics password Dynamics382092G
+
+
+ip local pool PoolVPN_31 192.168.37.109-192.168.37.110
+
+object-group network RED_Dynamics
+  network-object 192.168.2.168 255.255.255.255
+
+access-list SPLIT_Dynamics permit ip object-group RED_Dynamics 192.168.37.108 255.255.255.252
+
+username dynamics password Dynamics382092G
+
+access-list nonat permit ip host 192.168.2.168 192.168.37.108 255.255.255.252
+
+

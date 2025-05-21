@@ -1,0 +1,7 @@
+
+
+Inicio, ejecutar "sjf /scannow" con el cd de xp introducido.
+
+
+
+Tambien se pueden restaurar desde msconfig, en le botón expandir archivo y luego introducir los datos del archivo a restaurar.

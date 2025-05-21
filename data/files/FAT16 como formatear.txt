@@ -1,0 +1,45 @@
+Os dejo la solución creando una partición FAT de 500MB (se puede variar el tamaño hasta los 4gb, mas de eso no deja por restriccion del tipo de formato).
+
+El primer paso es ejecutar un MSDOS escribiendo CMD. Cuando se abra la ventana negra escribimos DISKPART y pulsamos Intro.
+
+ 
+
+DISKPART> list disk
+
+Disk ###  Status      Size     Free     Dyn  Gpt
+
+——–  ———-  ——-  ——-  —  —
+
+Disk 0    Online        40 GB      0 B
+
+Disk 1    Online      7538 MB      0 B
+
+DISKPART> select disk 1
+
+Disk 1 is now the selected disk.
+
+DISKPART> list part
+
+Partition ###  Type              Size     Offset
+
+————-  —————-  ——-  ——-
+
+Partition 1    Primary            500 MB  1024 KB
+
+DISKPART> clean
+
+DiskPart succeeded in cleaning the disk.
+
+DISKPART> create part primary size=500
+
+DiskPart succeeded in creating the specified partition.
+
+DISKPART> active
+
+DiskPart marked the current partition as active.
+
+DISKPART> format fs=fat quick
+
+100 percent completed
+
+DiskPart successfully formatted the volume.

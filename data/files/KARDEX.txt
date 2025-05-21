@@ -1,0 +1,12 @@
+EL ARCHIVO SE DEBE COPIAR CON EL PROGRAMA MERCURIO SIN EJECUTAR.
+
+Cuando se vaya a reinstalar Mercurio sustituyenDo la carpeta c:\DGH_MERCURIO por la de otro puesto seguiremos estos puntos:
+
+Renombrar carpeta c:\DGH_MERCURIO a c:\DGH_MERCURIO.old del puesto a reinstalar
+Copiaremos la carpeta c:\DGH_MERCURIO de otro puesto y la pegaremos en c:\.
+Copiaremos la carpeta de c:\DGH_MERCURIO.old\DGHS6 y sobrescribiremos c:\DGH_MERCURIO\DGHS6 (en esta carpeta se guarda la configuración local de la aplicación del puesto en concreto).
+IMPORTANTE!! Fichero de puesto: Si la versión es >= 2.12 hay que renombrar con el numero de puesto el fichero oculto de este ya que se encuentra en c:\DGH_MERCURIO. Ejemplo puesto 3 “_xvdm0039.003?.
+
+IMPORTANTE!! Si la versión es < 2.12 el fichero está en C:\ y no hace falta renombrar nada.
+
+Es importante seguir estos pasos, ya que si no cambiamos la carpeta DGHS6 y/o la extensión del fichero del puesto nos podemos encontrar configuraciones incoherentes o, que los cambios que hagamos, posteriores a esta reinstalación, tengan efecto en más puestos.

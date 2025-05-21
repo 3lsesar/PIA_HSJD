@@ -1,0 +1,14 @@
+Tiene que estar la sesión de modo consola del srv_gestion iniciada y ejecutando el manubens.
+
+
+usuario: demo
+
+contraseña:  demo
+
+
+
+Instalacion:
+
+El programa a instalar es: \\cifs01\datos\grupos\cau\Software\programas\\\FMaker8pro_Setup_sin_licencia\Setup.exe
+
+Un cop instalat s'ha de copiar a l'Escriptori de "All users" el següent accés: "Programa Manubens.url" que està en \\cifs01\datos\grupos\cau\Software\programas\Manubens\

@@ -1,0 +1,31 @@
+1. Mapeamos  la siguiente unidad :
+
+    net use j: \\cifs01\personal_dept
+
+SI NO MAPEAS LA UNIDAD NO FUNCIONARA.
+
+2. Ejecutamos el fichero SILTRA??_OK.exe que encontramos en la siguiente ubicación:
+	\\cifs01\datos\grupos\CAU\software\Siltra\actuSILTRA310
+
+   Actualmente usamos : Actualizacion_170.exe  (si hay alguna actulización mas nueva, poner esa)
+
+2.1 instalar java \\cifs01\datos\grupos\cau\software\java\jdk-8u281-windows-i586_buena_SILTRA.exe
+
+
+3. siguiente-->siguiente-->Aceptar y Siguiente-->"Instalación en red -Cliente" y siguiente-->Ruta "J:\SILTRA" o (\\cifs01\personal_dept\SILTRA) y siguiente-->siguiente-->siguiente-->echo
+ (El Acceso directo está en \\cifs01\datos\grupos\cau\software\Siltra\SILTRA)
+
+4. Una vez instalado el software en la máquina para cada usuario que lo use, la primera vez tendremos que introducir la siguiente información:
+
+
+-introduzco los datos de configuracion:
+Número de Atorización 			--> 00013035
+Fecha de Atuorización:			--> 11-02-1999
+Despacho o Empresa:   			--> sant juan de deu serveis de Salut mental
+Usuario Principal de la Aturorización:  --> Jose Galvete Arellano
+Usuariod de la aplicación: 		--> Usuario que utiliza el software (olga.suarez,melia.......)
+
+5. Vamos pasando a las siguientes pantallas hasta que llegamos a la última que es la de las impresoras, en esta seleccionamos la predeterminada y Guardamos.
+
+
+Software listo para usar
